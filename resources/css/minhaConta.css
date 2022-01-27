@@ -1,0 +1,124 @@
+#sessao__principal .content {
+    width: clamp(240px, 100%, 400px);
+    align-self: center;
+}
+
+.base__tabs {
+    margin-bottom: 40px;
+}
+
+.tabs__item  {
+    color: var(--cor-1);
+    border-color: var(--cor-1);
+}
+
+.tabs__item.active {
+    border-color: var(--cor-1);
+    background-color: var(--cor-1);
+    color: #fff;
+}
+
+.tabs__content__item {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: none;
+}
+
+.tabs__content__item.active {
+    display: flex;
+    flex-direction: column;
+    animation: slide__dr 400ms ease;
+}
+
+
+/* Perfil */
+.tabs__content__item img {
+    margin-bottom: 50px;
+}
+
+#perfil .subtitulo__text {
+    margin-bottom: 40px;
+}
+
+#btn__salvar {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.base__input input#perfil__nome {
+    text-transform: capitalize;
+}
+
+
+/* Pedidos */
+.tabs__content__item img {
+    margin-bottom: 50px;
+}
+
+#pedidos .subtitulo__text {
+    margin-bottom: 50px;
+}
+
+.pedidos__content {
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 16%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.pedido__data {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #606060;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.pedido__data span {
+    color: #001010;
+    font-size: 1.2em;
+    font-weight: 500;
+} 
+
+.pedido__total {
+    align-self: center;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #606060;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+.pedido__total span {
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #001010;
+}
+
+
+.pedido__status {
+    margin-left: 20px;
+}
+
+.status__title {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #606060;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+.info__status {
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.info__status.incompleto {
+    background-color: var(--cor-red);
+}
+
+.info__status.completo {
+    background-color: var(--cor-green);
+}

@@ -1,0 +1,27 @@
+#email__enviado, #confirmar__email {
+    width: clamp(220px, 100%, 400px);
+    animation: slide__dr 400ms ease;
+}
+
+.subtitulo {
+    margin-bottom: 60px;
+}
+
+.subtitulo__text {
+    margin-bottom: 50px;
+}
+
+.base__input {
+    margin-bottom: 30px;
+}
+
+#email__enviado img {
+    width: clamp(220px, 90%, 400px);
+    margin-bottom: 80px;
+    align-self: center;
+}
+
+#email__enviado .subtitulo__text {
+    margin-bottom: 0;
+    font-size: 1.5em;
+}

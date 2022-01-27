@@ -1,0 +1,60 @@
+#cabecalho {
+    align-self: center;
+    max-width: clamp(220px, 100%, 350px);
+}
+
+#cabecalho .subtitulo {
+    margin-bottom: 80px;    
+}
+
+#cabecalho img {
+    display: none;
+    padding: 10px;
+}
+
+#sessao__principal .content {
+    align-self: center;
+    margin-bottom: 100px;
+    width: clamp(220px, 90%, 400px);
+}
+
+.base__tabs {
+    margin-bottom: 40px;
+}
+
+#formularios form {
+    display: none;
+}
+
+#formularios form.active {
+    display: flex;
+    animation: slide__dr 400ms ease;
+}
+
+#form__login .btn__enviar, #form__cadastro .btn__enviar {
+    margin-top: 40px;
+}
+
+.base__check label {
+    font-size: 1.2em;
+}
+
+@media screen and (min-width: 800px) {
+    .content-fluid {
+        justify-content: space-around;
+    }
+    
+    #cabecalho {
+        align-self: flex-start;
+        margin-top: 40px;
+    }
+
+    #cabecalho img {
+        display: block;
+    }
+
+    #sessao__principal .content {
+        margin-left: 60px;
+        align-self: flex-start;
+    }
+}

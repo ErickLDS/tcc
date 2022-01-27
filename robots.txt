@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /montarchurros
+Allow: /login
+Disallow: /politicas
+Disallow: /finalizar
+Disallow: /ck10dashboard
+Disallow: /ck10dashboard/tipossabores
+Disallow: /ck10dashboard/sabores
+Disallow: /dashboard/login
+Disallow: /minhaconta
+Disallow: /minhaconta/perfil
+Disallow: /redefinirsenha

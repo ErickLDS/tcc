@@ -1,0 +1,140 @@
+#sessao__principal {
+    width: clamp(220px, 100%, 600px);
+}
+
+.subtitulo__text {
+    margin-bottom: 40px;
+}
+
+.subtitulo {
+    margin-bottom: 50px;
+    border-color: var(--cor-green);
+}
+
+#pedido__feedback img {
+    width: clamp(220px, 80%, 300px);
+    align-self: center;
+    margin-bottom: 80px;
+}
+
+
+#pedido__data {
+    color: #606060;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+#pedido__data span {
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #001010;
+} 
+
+#pedido__info {
+    margin-bottom: 40px;
+}
+
+#pedido__total {
+    color: #606060;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+#pedido__total span {
+    font-size: 1.3em;
+    color: #001010;
+    font-weight: 500;
+}
+
+
+.pedido__status {
+    margin-left: 30px;
+}
+
+.info__status {
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.pedido__status span.info__status.incompleto {
+    background-color: var(--cor-red);
+}
+
+.pedido__status span.info__status.caminho {
+    background-color: var(--cor-yellow);
+}
+
+.pedido__status span.info__status.completo {
+    background-color: var(--cor-green);
+}
+
+
+#pedido__churros {
+    margin-bottom: 50px;
+}
+
+
+.pagamento__item {
+    align-self: center;
+    width: clamp(200px, 90% ,300px);
+    margin-bottom: 120px;
+}
+
+.pagamento__item label.btn__padrao {
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--cor-pagamento);
+    border: 2px solid var(--cor-pagamento);
+    transition: 200ms ease;
+    align-self: center;
+    z-index: 20;
+    width: 100%;
+}
+
+.pagamento__item label.troco {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pagamento__item .base__input {
+    display: flex;
+    margin-bottom: 0px;
+    border-color: var(--cor-pagamento);
+    align-self: center;
+    z-index: 10;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+#pedido__feedback {
+    align-self: center;
+    width: clamp(220px, 100%, 360px);
+    margin-bottom: 100px;
+}
+
+
+.redes__sociais__item {
+    color: #fff;
+    font-size: clamp(1.3em, 2vw, 1.5em);
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.redes__sociais__item.fa-facebook-f {
+    background-color: #0090FF;
+}
+
+.redes__sociais__item.fa-whatsapp {
+    background-color: #00BE59;
+}
+
+.redes__sociais__item.fa-instagram {
+    background-color: #FF3940;
+}

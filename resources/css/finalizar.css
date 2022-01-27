@@ -1,0 +1,81 @@
+#conteudo #btn__verPedido {
+    margin-bottom: 50px;
+}
+
+#conteudo .subtitulo {
+    border-color: var(--cor-green);
+}
+
+#total {
+    margin-bottom: 80px;
+}
+
+
+/* Endereço */
+#endereco .base__input {
+    width: clamp(220px, 100%, 350px);
+}
+
+
+/* Pagamento */
+#pagamento .subtitulo__text {
+    margin-bottom: 40px;
+}
+
+.pagamento__item {
+    align-self: center;
+    width: clamp(200px, 90% ,300px);
+    margin-bottom: 20px;
+}
+
+.pagamento__item label.btn__padrao {
+    cursor: pointer;
+    color: #001010;
+    background-color: transparent;
+    border: 2px solid var(--cor-pagamento);
+    transition: 200ms ease;
+    align-self: center;
+    z-index: 20;
+    width: 100%;
+}
+
+.pagamento__item label i {
+    color: var(--cor-pagamento);
+}
+
+.pagamento__item input[name='forma_pagamento']:checked + label.troco {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pagamento__item input[name='forma_pagamento']:checked + label.btn__padrao {
+    color: #fff;
+    background-color: var(--cor-pagamento);
+}
+
+.pagamento__item input[name='forma_pagamento']:checked + label.btn__padrao i {
+    color: #fff;
+}
+
+.pagamento__item .base__input {
+    display: none;
+    margin-bottom: 0px;
+    border-color: var(--cor-pagamento);
+    align-self: center;
+    z-index: 10;
+    width: 100%;
+}
+
+.pagamento__item input[name='forma_pagamento']:checked ~ .base__input {
+    display: flex;
+    animation: slide__down 300ms ease;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#botoes {
+    margin-top: 50px;
+}
+
+#btn__proximo {
+    font-size: 1.4em;
+    background-color: var(--cor-green);
+}

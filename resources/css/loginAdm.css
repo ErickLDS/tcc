@@ -1,0 +1,13 @@
+#form__login {
+    width: clamp(220px, 100%, 400px);
+    align-self: center;
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+#lembre-se {
+    align-self: flex-start;
+}

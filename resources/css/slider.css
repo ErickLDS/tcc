@@ -1,0 +1,40 @@
+#conteudo {
+    width: clamp(210px, 100%, 500px);
+}
+
+#conteudo .subtitulo {
+    font-size: 1.4em;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+}
+
+#slider {
+    padding-top: 50px;
+}
+
+.slider__item {
+    width: clamp(180px, 100%, 500px);
+    display: none;
+    align-self: center;
+    margin-bottom: 60px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.slider__item.active {
+    animation: slide__dr 400ms ease;
+    display: flex;
+}
+
+#botoes button {
+    margin-bottom: 20px;
+}
+
+#btn__voltar {
+    padding: 15px 0;
+    width: clamp(170px, 70% ,270px);
+    border: 2px solid var(--cor-texto);
+    color: var(--cor-texto);
+    background-color: transparent;
+}

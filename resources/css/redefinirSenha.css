@@ -1,0 +1,15 @@
+#nova__senha {
+    width: clamp(220px, 100%, 400px);
+}
+
+.subtitulo {
+    margin-bottom: 60px;
+}
+
+.subtitulo__text {
+    margin-bottom: 50px;
+}
+
+.base__input {
+    margin-bottom: 30px;
+}

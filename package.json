@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "start": "php artisan serve --host 0.0.0.0",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.43.4",
+        "sass-loader": "^12.1.0",
+        "vue-loader": "^16.5.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "@vue/compiler-sfc": "^3.1.5",
+        "bootstrap": "^5.1.0",
+        "maska": "^1.4.5",
+        "vue": "^3.2.2"
+    }
+}
